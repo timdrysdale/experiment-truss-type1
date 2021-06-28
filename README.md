@@ -139,4 +139,6 @@ We can read all the HX711 outputs in parallel by using a common PD_SCK connectio
 
 The fan-out required to power the PD_SCK lines appears within the capability of an arduino - inferring this from the total power to an HX711 being ca. 1.5 mA under normal conditions, and the source/sink of an arduino output being ca. 25 mA. The microcontroller could be tasked solely with reading the HX711 and transmitting the value to another microcontroller which coordinates the experiment. SPI offers bidirectional communication, but also the convenience of a peripheral select line, so that no address setting is needed on the peripheral board. Thus, more than eight channels can be achieved, so long as the controlling microcontroller has enough spare lines to operate individual peripheral select lines to each of the eight-channel ADC boards.
 
+The schematic below shows prototype hardware that is in development  and is currently being tested. A separate HX711 breakout board is used for each strain gauge (only 2 displayed on schematic). The Arduinos communicate via I2C on pins A4 and A5.
+
 ![CircuitSchematic](./img/initial-schematic.png)
