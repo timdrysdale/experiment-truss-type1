@@ -1,0 +1,13 @@
+{"set": "position", "to": value} 
+
+{"set": "speed", "to": value} //not implemented.
+
+{"set": "mode", "to": "read"} 
+
+{"set": "mode", "to": "move"} 
+
+{"set": "mode", "to":"standby"} 
+
+{"set": "mode", "to":"zero"}
+
+{"set": "mode", "to":"tare"} 
