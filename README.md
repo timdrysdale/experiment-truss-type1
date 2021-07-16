@@ -141,4 +141,4 @@ The fan-out required to power the PD_SCK lines appears within the capability of 
 
 The schematic below shows prototype hardware that is in development  and is currently being tested. A separate HX711 breakout board is used for each strain gauge (only 2 displayed on schematic). The Arduinos communicate via I2C on pins A4 and A5.
 
-![CircuitSchematic](./img/initial-schematic.png)
+![CircuitSchematic](./img/initial-schematicv2.png)
